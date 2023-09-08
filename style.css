@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    z-index: -10;
+}
+
+.navbar {
+    height: 86px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
+    justify-content:space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    height: 64px;
+    width: 190px;
+    background-image: url(logo.png);
+    margin-top: 1px;
+    margin-left: 0px;
+    background-image: url("logo.png");
+    margin-top: -25px;
+    background-size: cover;
+    position: relative;
+    left: -170px;
+}
+
+.lang {
+    height: 32px;
+    width: 126px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    left: 380px;
+}
+
+.lang:hover {
+    border: 2px solid white;
+}
+
+.lang-drop { /*font*/
+    background-color: rgba(65, 64, 64, 0.655);
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding-left:20px;
+    font-size: 1.1rem;
+}
+
+.sign {
+    height: 32px;
+    width: 77px;
+    border-radius: 4px;
+    position: relative;
+    left: 200px;
+}
+
+.sign button {
+    background-color: rgb(218, 0, 0);
+    height: 100%;
+    color:white;
+    width: 100%;
+    font-weight:600 ;
+    border-radius: 4px;
+    border: none;
+}
+
+.sign button:hover {
+    background-color: rgb(170, 4, 4);
+}
+
+.image1 {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-image: url("image-1.jpg");
+    background-size: cover;
+    top: 0;
+    z-index: -20;
+}
+
+.gredient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 90%);
+    z-index: -1;
+}
+
+.image-content {
+    color: white;
+    text-align: center;
+}
+
+.line1 {
+    position: absolute;
+    top: 285px;
+    left: 22%;
+    word-spacing: -6px;
+    letter-spacing: -3px;
+}
+
+.line2 {
+    position: absolute;
+    top: 370px;
+    left: 38%;
+    word-spacing: -2px;
+    letter-spacing: 0px;
+}
+
+.line3 {
+    position: absolute;
+    top: 431px;
+    left: 30%;
+    word-spacing: 0px;
+    letter-spacing: 0.2px;
+}
+
+.image-content input {
+    position: absolute;
+    top: 477px;
+    left: 32%;
+    border: 0.3px solid rgb(102, 102, 102);
+    border-radius: 2px;
+    height: 56px;
+    width: 376px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.image-content button {
+    position: absolute;
+    top: 477px;
+    left: 57%;
+    height: 56px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(218, 0, 0);
+}
+
+.image-content button:hover {
+    background-color: rgb(170, 0, 0);
+}
+
+.box1 {
+    position: absolute;
+    top:710px;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1-line1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.box1-line2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.box1-line3 {
+    color: white;
+    margin-top: 5px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.box1-image{
+    height: 450px;
+    width: 600px;
+    /* background-color: pink; */
+    background-image: url("tv.png");
+    background-size: cover;
+}
+
+.box2 {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    top: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    position: relative;
+    height: 450px;
+    width: 600px;
+    background-image: url("mobile-0819.jpg");
+    background-size: cover;
+}
+
+.bar {
+    position: absolute;
+    top: 320px;
+    width: 320px;
+    height: 100px;
+    background-color: rgba(0, 0, 0);
+    margin-left: 140px;
+    border: .4px solid rgb(90, 90, 90);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bar-image {
+    height: 80px;
+    width: 57px;
+    margin-left: -27px;
+    background-image: url("stranger.png");
+    background-size: cover;
+}
+
+.bar-line1 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.bar-line2 {
+    color: #0071eb;
+    font-size: 1rem;
+}
+
+.box2-content-line1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box2-content-line2{
+    color: white;
+    margin-top: -10px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box2-content-line3{
+    margin-top: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box2-content-line4{
+    color: white;
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+.box3 {
+    position: absolute;
+    height: 920px;
+    width: 100%;
+    top:1930px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    width: 80%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3-line1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box3-box1{
+    width: 90%;
+    height: 80px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3-box1:hover {
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+}
+
+.box3-line3{
+    font-weight: 500;
+    color: white;
+}
+
+.rest input {
+    border: 0.3px solid rgb(102, 102, 102);
+    border-radius: 2px;
+    height: 56px;
+    width: 376px;
+    margin-left: 5%;
+    margin-top: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(36, 36, 36, 0.6);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.rest button {
+    height: 56px;
+    margin-left: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(218, 0, 0);
+}
+
+.rest button:hover {
+    background-color: rgb(170, 0, 0);;
+}
+
+.box3-box1-line {
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.plus{
+    font-size: 3.5rem;
+    display: inline-block;
+    margin-left: 94%;
+    margin-top: -50px;
+}
+
+.foot{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top:2860px;
+    background-color: black;
+}
+.foot a{
+    color: rgb(162, 162, 162);
+    margin-top: 15px;
+    display: block;
+}
+
+.foot select{
+    margin-top: 15px;
+    height: 32px;
+    width: 126px;
+    text-align: center;
+    background-color: rgba(65, 64, 64, 0.655);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
